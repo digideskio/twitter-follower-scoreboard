@@ -5,8 +5,8 @@ oauth_token: PUT YOUR TWITTER OATH TOKEN HERE
 oauth_secret: PUT YOUR TWITTER OATH SECRET KEY HERE
 twitter_users:
   - 
-    username: PUT USERNAME HERE
+    screen_name: PUT SCREEN NAME HERE (no @)
     display_name: PUT NAME FOR DISPLAY HERE
   - 
-    username: PUT ANOTHER USERNAME HERE
+    screen_name: PUT ANOTHER SCREEN NAME HERE (no @)
     display_name: PUT ANOTHER NAME FOR DISPLAY HERE
