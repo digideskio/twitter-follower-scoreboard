@@ -1,4 +1,4 @@
-twitter-follower-scoreboard
+Twitter Follower Scoreboard
 ===========================
 
-Twitter Scoreboard webapp that ranks users by follower count
+Python app that generates a static Twitter Scoreboard site, which ranks a designated set of Twitter users by follower count
