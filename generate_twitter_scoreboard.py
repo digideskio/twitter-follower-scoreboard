@@ -42,6 +42,9 @@ for user in userdata:
                         'avatar': user['profile_image_url']
                         })
 
+# Sort list by follower count, in descending order
+json_output.sort(key=lambda user: user['followers_count'], reverse=True)
+
 f = open(JSON_OUTPUT_FILE, 'w')
 f.write(json.dumps(json_output, indent=1, sort_keys=True))
 f.close()
