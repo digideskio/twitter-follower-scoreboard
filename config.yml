@@ -1,0 +1,12 @@
+---
+consumer_key: PUT YOUR TWITTER CONSUMER KEY HERE
+consumer_secret: PUT YOUR TWITTER CONSUMER SECRET KEY HERE
+oath_token: PUT YOUR TWITTER OATH TOKEN HERE
+oath_secret: PUT YOUR TWITTER OATH SECRET KEY HERE
+twitter_users:
+  - 
+    username: PUT USERNAME HERE
+    display_name: PUT NAME FOR DISPLAY HERE
+  - 
+    username: PUT ANOTHER USERNAME HERE
+    display_name: PUT ANOTHER NAME FOR DISPLAY HERE
