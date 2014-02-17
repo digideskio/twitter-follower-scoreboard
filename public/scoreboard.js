@@ -11,8 +11,8 @@ function load_scoreboard () {
 		    var followers_formatted = user['followers_count'].toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ',')
 		    var table_row = '<tr>'
                                     + '<td>' + (i + 1)  + '</td>' // Rank
-			            + '<td><img src="' + user['avatar'] + '"/></td>' // Avatar
-               			    + '<td>' + user['screen_name'] + '</td>' // Twitter handle
+			            + '<td><a href="' + 'http://twitter.com/' + user['screen_name'] + '"><img class="avatar" src="' + user['avatar'] + '"/></a></td>' // Avatar
+               			    + '<td><a href="' + 'http://twitter.com/' + user['screen_name'] + '">@' + user['screen_name'] + '</a></td>' // Twitter handle
 			            + '<td>' + user['display_name'] + '</td>' // Name
 			            + '<td>' + followers_formatted + '</td>' // Number of followers
 			            + '</tr>';
