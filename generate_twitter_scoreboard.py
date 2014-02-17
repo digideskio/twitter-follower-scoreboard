@@ -35,7 +35,7 @@ userdata = tw_obj.users.lookup(screen_name=','.join(screen_names), timeout=1)
 
 for user in userdata:
     # Match up the user record in our config with the corresponding record in returned Twitter data using "screen_name"
-    corresponding_config_user = [config_user for config_user in app_config['twitter_users'] if config_user['screen_name'] == user['screen_name']][0]
+    corresponding_config_user = [config_user for config_user in app_config['twitter_users'] if config_user['screen_name'].lower() == user['screen_name'].lower()][0]
     json_output.append({'screen_name': user['screen_name'], 
                         'display_name': corresponding_config_user['display_name'],
                         'followers_count': user['followers_count'],
